@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 {
-    'name': 'Space mission',
+    'name': 'Space Mission',
     
     'sumary': """Logistic app to manage Space mission to moon""",
     
