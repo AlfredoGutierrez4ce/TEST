@@ -3,9 +3,9 @@
 {
     'name': 'Odoo Academy',
     
-    'sumary': """"Academy app to manage Training""",
+    'sumary': """Academy app to manage Training""",
     
-    'description': """"
+    'description': """
        Academy Module to manage Traning
        - Courses
        - Sessions
@@ -22,12 +22,10 @@
     'depends': ['base'],
     
     'data': [
-        'security/academy_security.xml',
-        'security/ir.model.access.csv',
+        'views/academy_menuitems.xml',
     ],
     
     'demo': [
-        'demo/academy_demo.xml',
-        
+        'demo/academy_demo.xml',      
     ],
 }
